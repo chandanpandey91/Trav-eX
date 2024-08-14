@@ -251,10 +251,11 @@ button:hover {
     top: 0;
     right: 0;
 }
-.third{
+
+.third,.sixth{
     margin-top: 50px;
 }
-.third h1{
+.third ,.sixth h1{
     margin-left: 90px;
 }
 
@@ -280,6 +281,9 @@ button:hover {
 }
 
 .card:hover {
+    transform: scale(1.05);
+}
+.card1:hover {
     transform: scale(1.05);
 }
 
@@ -321,6 +325,9 @@ button:hover {
 .price-info {
     text-align: right;
 }
+.price-info1 {
+    text-align: left;
+}
 
 .price-info p {
     margin: 0;
@@ -330,4 +337,29 @@ button:hover {
     font-size: 16px;
     color: #28a745;
     font-weight: bold;
+}
+.fourth,.fifth{
+    margin-top: 50px;
+}
+.fourth,.fifth h1{
+    margin-left: 90px;
+}
+.price-info1{
+    display: flex;
+}
+.price1{
+    font-weight: bold;
+    margin-right: 6px;
+}
+.per{
+    color: gray;
+}
+.card1 {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    transition: transform 0.3s;
 }
