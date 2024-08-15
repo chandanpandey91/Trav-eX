@@ -154,11 +154,14 @@ section.content{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .content-box {
+    
     background-color: rgba(255, 255, 255,0.2); /* White with 80% opacity */
     padding: 20px;
     border-radius: 10px;
+    margin-top: 15%;
     color: white;
     text-align: center;
     width: 700px;
@@ -266,6 +269,7 @@ button:hover {
     gap: 20px;
     max-width: 1200px;
     margin: auto;
+   
     
     
 }
@@ -338,10 +342,10 @@ button:hover {
     color: #28a745;
     font-weight: bold;
 }
-.fourth,.fifth{
+.fourth,.fifth,.second{
     margin-top: 50px;
 }
-.fourth,.fifth h1{
+.fourth,.fifth,.second h1{
     margin-left: 90px;
 }
 .price-info1{
@@ -362,4 +366,81 @@ button:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: white;
     transition: transform 0.3s;
+}
+.card-container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card2 {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    /*width: 100%;
+    max-width: 100%;*/
+    width: 1200px;
+    height: 350px;
+    margin-left: 90px;
+    
+}
+
+.card2 img {
+    
+    width: 50%;
+    height: auto;
+    
+    object-fit: cover;
+}
+
+.card-content1 {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-title1 {
+    font-size: 24px;
+    margin: 0 0 10px;
+}
+
+.card-description1 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-price1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.card-button:hover {
+    background-color: #0056b3;
+}
+.per1{
+    font-weight: lighter;
+    font-size:16px ;
+    color: gray;
 }
